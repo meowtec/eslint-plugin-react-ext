@@ -36,11 +36,11 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "react-ext/no-unused-react-member": 2
+        "react-ext/no-unused-class-property": 2
     }
 }
 ```
 
 ## Supported Rules
 
-* `no-unused-react-member` Prevent declaring unused methods of component class
+* `no-unused-class-property` Prevent declaring unused methods of class component.
