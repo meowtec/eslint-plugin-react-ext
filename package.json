@@ -1,0 +1,40 @@
+{
+  "name": "eslint-plugin-react-ext",
+  "version": "0.1.0",
+  "description": "The missing rules for eslint-react-plugin",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "eslint-plugin-react",
+    "react-unused-class-method"
+  ],
+  "author": "meowtec<bertonzh@gmail.com>",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "mocha tests --recursive"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib"
+  ],
+  "peerDependencies": {
+    "eslint-plugin-react": "7"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^2.3.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.3",
+    "mocha": "^6.2.0",
+    "typescript": "^3.6.3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "license": "ISC"
+}
